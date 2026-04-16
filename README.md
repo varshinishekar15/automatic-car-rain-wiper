@@ -27,10 +27,10 @@ The rain sensor detects moisture on its surface. When rain is detected:
 - Arduino processes input
 - Motor is activated to simulate wiper motion
 
-## My Contribution
-- Designed system logic
-- Integrated rain sensor with Arduino
-- Implemented automatic response mechanism
+## Code Logic
+- Analog rain sensor input is read from pin A3
+- Threshold value determines rain intensity
+- LED and buzzer simulate wiper activation during heavy rain
 
 ## Future Improvements
 - Speed control based on rain intensity
